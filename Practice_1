@@ -1,0 +1,7 @@
+for i in range(0,10):
+    print("GCI is great")
+name = input("What's your name?")
+reversed_name = [None] * len(name)
+for i in range(0, len(name)):
+    reversed_name[i] = name[len(name)-(i+1)]
+print("Hello",name+", pleased to meet you! Did you know that your name backwards is",''.join(reversed_name)+"?")
